@@ -1,0 +1,106 @@
+:root{
+    --cor-primaria: #000000 ;
+    --cor-secundaria: #ffffff ;
+    --teste: #00620b ;
+}
+
+
+.background{
+    position: fixed;
+    inset: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    z-index: -1;
+}
+
+.background img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.background img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 6px;
+}
+
+.texto_titulo{
+    font-family: "Prompt", sans-serif;
+    font-size: 40px;
+
+    margin-left: 455px;
+    margin-top: 65px;
+}
+
+.relogios{
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.texto{
+    max-width: 700px;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+
+    margin-top: 50px;
+    margin-left: 410px;
+
+    text-align: center;
+}
+
+.navigation{
+    margin-top: 30px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 900px;
+
+    list-style: none;
+    font-size: 20px;
+}
+
+.navigation_link_home{  
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+
+    color: var(--cor-secundaria);
+    background: var(--cor-primaria);
+
+    border-radius: 20px;
+    padding: 5px 30px;
+
+    margin-left: 130px;
+    z-index: -1;
+}
+
+
+.navigation_link_contato{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+
+    color: var(--cor-secundaria);
+    background: var(--cor-primaria);
+
+    border-radius: 20px;
+    padding: 5px 30px;
+
+    z-index: -1;
+}
+
